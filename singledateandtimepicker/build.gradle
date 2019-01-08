@@ -20,10 +20,6 @@ dependencies {
 }
 
 ext {
-    bintrayRepo = 'maven'
-    bintrayName = rootProject.ext.libraryDescription
-    orgName = 'florent37'
-
     publishedGroupId = rootProject.ext.libraryGroup
     libraryName = rootProject.ext.libraryDescription
     artifact = rootProject.ext.libraryName
@@ -35,9 +31,9 @@ ext {
 
     libraryVersion = rootProject.ext.libraryVersion
 
-    developerId = 'florent37'
-    developerName = 'Florent Champigny'
-    developerEmail = 'champigny.florent@gmail.com'
+    developerId = 'jylee1988'
+    developerName = 'jooyoung'
+    developerEmail = 'jooyoung1988@gmail.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
@@ -45,4 +41,3 @@ ext {
 }
 
 apply from: rootProject.file('gradle/install-v1.gradle')
-apply from: rootProject.file('gradle/bintray-android-v1.gradle')
