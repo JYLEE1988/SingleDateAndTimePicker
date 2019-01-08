@@ -37,26 +37,6 @@ new SingleDateAndTimePickerDialog.Builder(context)
             }).display();
 ```
 
-## Select 2 dates
-
-[![screen](https://raw.githubusercontent.com/florent37/SingleDateAndTimePicker/master/media/double_small_crop.png)](https://www.github.com/florent37/SingleDateAndTimePicker)
-
-```java
-new DoubleDateAndTimePickerDialog.Builder(context)
-            //.bottomSheet()
-            //.curved()
-            //.minutesStep(15)
-            .title("Double")
-            .tab0Text("Depart")
-            .tab1Text("Return")
-            .listener(new DoubleDateAndTimePickerDialog.Listener() {
-                @Override
-                public void onDateSelected(List<Date> dates) {
-                
-                }
-        }).display();
-```
-
 ## Display days, months and years
 
 [![screen](https://raw.githubusercontent.com/florent37/SingleDateAndTimePicker/master/media/years_crop.png)](https://www.github.com/florent37/SingleDateAndTimePicker)
@@ -86,24 +66,6 @@ new SingleDateAndTimePickerDialog.Builder(this)
         app:picker_cyclic="true"
         app:picker_visibleItemCount="7"
         />
-```
-
-# iOS like :P
-
-[![screen](https://raw.githubusercontent.com/florent37/SingleDateAndTimePicker/master/media/ios_simple_crop.png)](https://www.github.com/florent37/SingleDateAndTimePicker)
-
-```java
-new SingleDateAndTimePickerDialog.Builder(context)
-                                    .bottomSheet()
-                                    .curved()
-```
-
-[![screen](https://raw.githubusercontent.com/florent37/SingleDateAndTimePicker/master/media/ios_double_crop.png)](https://www.github.com/florent37/SingleDateAndTimePicker)
-
-```java
-new DoubleDateAndTimePickerDialog.Builder(context)
-                                    .bottomSheet()
-                                    .curved()
 ```
 
 # Customisation
@@ -149,38 +111,10 @@ new SingleDateAndTimePickerDialog.Builder(context)
 
 # Download
 
-<a href='https://ko-fi.com/A160LCC' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-
-In your module [![Download](https://api.bintray.com/packages/florent37/maven/SingleDateAndTimePicker/images/download.svg)](https://bintray.com/florent37/maven/SingleDateAndTimePicker/_latestVersion)
-```groovy
-compile 'com.github.florent37:singledateandtimepicker:(last version)'
+[![](https://jitpack.io/v/JYLEE1988/SingleDateAndTimePicker.svg)](https://jitpack.io/#JYLEE1988/SingleDateAndTimePicker)
+```groovy	       
+implementation 'com.github.JYLEE1988:SingleDateAndTimePicker:(last version)'
 ```
-
-# Credits
-
-Author: Florent Champigny [http://www.florentchampigny.com/](http://www.florentchampigny.com/)
-
-Blog : [http://www.tutos-android-france.com/](http://www.tutos-android-france.com/)
-
-Fiches Plateau Moto : [https://www.fiches-plateau-moto.fr/](https://www.fiches-plateau-moto.fr/)
-
-<a href="https://goo.gl/WXW8Dc">
-  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
-</a>
-
-
-<a href="https://plus.google.com/+florentchampigny">
-  <img alt="Follow me on Google+"
-       src="https://raw.githubusercontent.com/florent37/DaVinci/master/mobile/src/main/res/drawable-hdpi/gplus.png" />
-</a>
-<a href="https://twitter.com/florent_champ">
-  <img alt="Follow me on Twitter"
-       src="https://raw.githubusercontent.com/florent37/DaVinci/master/mobile/src/main/res/drawable-hdpi/twitter.png" />
-</a>
-<a href="https://www.linkedin.com/in/florentchampigny">
-  <img alt="Follow me on LinkedIn"
-       src="https://raw.githubusercontent.com/florent37/DaVinci/master/mobile/src/main/res/drawable-hdpi/linkedin.png" />
-</a>
 
 
 License
